@@ -20,7 +20,7 @@ response = {
 data = {
   job_application: {
     :user_id,
-    :master_id
+    :job_id
   }
 }
 ```

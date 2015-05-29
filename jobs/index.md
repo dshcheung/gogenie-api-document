@@ -2,7 +2,7 @@
 ## 200
 ```
 response = {
-  message: "Index of all non-completed jobs",
+  message: Index Of All Non-Completed Jobs",
   jobs: [
     {job: {data}, master: {data}},
     ...

@@ -2,9 +2,9 @@
 ## 200
 ```
 response = {
-  message: "Index of all job_applications for current_user",
-  job_applications: [
-    {job_application: {data}, job: {data}, master: {data}},
+  message: "Index of all review_masters/review_genies for current_user/current_master",
+  review_masters: [
+    {review_master: {data}},
     ...
   ]
 }

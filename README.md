@@ -18,7 +18,7 @@
 
 [put "/job_applications/:id"  Update individual application](https://github.com/dshcheung/gogenie-api-document/blob/master/job_applications/update.md)
 
-## Review Masters (for genie side to use)
+## Review Masters (for genie to use) (same structure as review user)
 [get "/review_masters"        Get all reviews by genie](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/index.md)
 
 [post "/review_masters"       Post a new review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/create.md)
@@ -27,7 +27,7 @@
 
 [put "/review_masters/:id"    Update individual review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/update.md)
 
-## Review Genies (for master side to use)
+## Review Users (for master to use) (same structure as review master)
 [get "/review_users"          Get all reviews by master](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/index.md)
 
 [post "/review_users"         Post a new review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/create.md)

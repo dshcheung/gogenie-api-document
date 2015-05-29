@@ -11,7 +11,7 @@ response = {
 #400
 ```
 response = {
-  message: "Error. Check errors for more info",
+  message: "Error. Check Errors For More Info",
   errors: [data]
 }
 ```
@@ -19,7 +19,7 @@ response = {
 #404
 ```
 response = {
-  message: "No job with id #{params[:id]}",
+  message: "No Job With ID #{params[:id]}",
   job: nil
 }
 ```
