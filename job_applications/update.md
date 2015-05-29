@@ -1,6 +1,5 @@
 #Response Data
-
-#200
+##200
 ```
 response = {
   message: "Job Application Updated",
@@ -8,7 +7,7 @@ response = {
 }
 ```
 
-#400
+##400
 ```
 response = {
   message: "Error. Check errors for more info",
@@ -16,7 +15,7 @@ response = {
 }
 ```
 
-#404
+##404
 ```
 response = {
   message: "No job application with id #{params[:id]}",
@@ -24,10 +23,10 @@ response = {
 }
 ```
 
-#Permited Params
+##Permited Params
 ```
 data = {
-  job: {
+  job_application: {
     :status
   }
 }

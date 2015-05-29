@@ -2,7 +2,7 @@
 ##200
 ```
 response = {
-  message: "Job Application details of ##{@job_application.id}",
+  message: "Job Application Details Of ##{@job_application.id}",
   job_application: {data},
   job: {data},
   master: {data}
@@ -12,7 +12,7 @@ response = {
 ##404
 ```
 response = {
-  message:  "No job application with id #{params[:id]}",
+  message: "No Job Application With ID #{params[:id]}",
   job_application: nil,
   job: nil,
   master: nil

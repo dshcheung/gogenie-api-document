@@ -10,7 +10,7 @@ response = {
 ##400
 ```
 response = {
-  message: "Error. check errors for more info",
+  message: "Error. Check Errors For More Info",
   errors: [data]
 }
 ```
