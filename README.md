@@ -9,3 +9,11 @@
 
 [put "/jobs/:id"             Update individual job](https://github.com/dshcheung/gogenie-api-document/blob/master/jobs/update.md)
 
+## Job Application API
+[get "/job_applications"      Get all applications that is not completed yet](https://github.com/dshcheung/gogenie-api-document/blob/master/job_applications/index.md)
+
+[post "/job_applications"     Post a new application](https://github.com/dshcheung/gogenie-api-document/blob/master/job_applications/create.md)
+
+[get "/job_applications/:id"  Get individual application](https://github.com/dshcheung/gogenie-api-document/blob/master/job_applications/show.md)
+
+[put "/job_applications/:id"  Update individual application](https://github.com/dshcheung/gogenie-api-document/blob/master/job_applications/update.md)
