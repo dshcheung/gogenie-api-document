@@ -2,8 +2,8 @@
 ##200
 ```
 response = {
-  message: "Review Master Updated",
-  review_master: {data}
+  message: "Review User Updated",
+  review_user: {data}
 }
 ```
 
@@ -18,15 +18,15 @@ response = {
 ##404
 ```
 response = {
-  message: "No Review Master With ID #{params[:id]}",
-  review_master: nil
+  message: "No Review user With ID #{params[:id]}",
+  review_user: nil
 }
 ```
 
 #Permited Params
 ```
 data = {
-  review_master: {
+  review_user: {
     :rating,
     :description
   }

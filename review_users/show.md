@@ -2,15 +2,15 @@
 ##200
 ```
 response = {
-  message: "Review Master Details Of ID #{@jreview_master.id}",
-  review_master: {data}
+  message: "Review User Details Of ID #{@review_user.id}",
+  review_user: {data}
 }
 ```
 
 ##404
 ```
 response = {
-  message:  "No Review Master With ID #{params[:id]}",
-  review_master: nil
+  message:  "No Review User With ID #{params[:id]}",
+  review_user: nil
 }
 ```

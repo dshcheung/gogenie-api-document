@@ -2,7 +2,7 @@
 ##200
 ```
 response = {
-  message: "Review Master Created",
+  message: "Review User Created",
   review_master: {data}
 }
 ```
@@ -18,7 +18,7 @@ response = {
 #Permited Params
 ```
 data = {
-  review_master: {
+  review_user: {
     :job_id,
     :user_id,
     :master_id,

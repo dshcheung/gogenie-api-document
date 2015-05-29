@@ -2,9 +2,9 @@
 ##200
 ```
 response = {
-  message: "Index Of All Review Of Masters By Current User",
-  review_masters: [
-    {review_master: {data}},
+  message: Index Of All Review Of Users By Current Master",
+  review_users: [
+    {review_user: {data}},
     ...
   ]
 }

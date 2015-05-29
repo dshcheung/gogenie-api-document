@@ -2,7 +2,7 @@
 ##200
 ```
 response = {
-  message: "Review Master Details Of ID #{@jreview_master.id}",
+  message: "Review Master Details Of ID #{@review_master.id}",
   review_master: {data}
 }
 ```
