@@ -35,3 +35,21 @@
 [get "/review_users/:id"      Get individual review user](https://github.com/dshcheung/gogenie-api-document/blob/master/review_users/show.md)
 
 [put "/review_users/:id"      Update individual review user](https://github.com/dshcheung/gogenie-api-document/blob/master/review_users/update.md)
+
+## Master Infos (master specific stuff)
+[get "/master_infos/jobs"     Get all jobs by master](https://github.com/dshcheung/gogenie-api-document/blob/master/master_infos/jobs.md)
+
+[get "/master_infos/master"   Get current master info](https://github.com/dshcheung/gogenie-api-document/blob/master/master_infos/master.md)
+
+[post "/master_infos/create_phone_code"   Create and send the phone code through sms](https://github.com/dshcheung/gogenie-api-document/blob/master/master_infos/create_phone_code.md)
+
+[post "/master_infos/verify_phone_code"   Verify phone code](https://github.com/dshcheung/gogenie-api-document/blob/master/master_infos/verify_phone_code.md)
+
+## User Infos (user specific stuff)
+[get "/user_infos/jobs"     Get all jobs by user](https://github.com/dshcheung/gogenie-api-document/blob/master/user_infos/jobs.md)
+
+[get "/user_infos/master"   Get current user info](https://github.com/dshcheung/gogenie-api-document/blob/master/user_infos/user.md)
+
+[post "/user_infos/create_phone_code"   Create and send the phone code through sms](https://github.com/dshcheung/gogenie-api-document/blob/master/user_infos/create_phone_code.md)
+
+[post "/user_infos/verify_phone_code"   Verify phone code](https://github.com/dshcheung/gogenie-api-document/blob/master/user_infos/verify_phone_code.md)
