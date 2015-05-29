@@ -2,15 +2,15 @@
 ##200
 ```
 response = {
-  message: "Review Master/Review User Created",
-  job_application: {data}
+  message: "Review Master Created",
+  review_master: {data}
 }
 ```
 
 ##400
 ```
 response = {
-  message: "Error. check errors for more info",
+  message: "Error. Check Errors For More Info",
   errors: [data]
 }
 ```

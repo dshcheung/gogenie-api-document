@@ -1,6 +1,5 @@
 #Response Data
-
-#200
+##200
 ```
 response = {
   message: "Job Updated",
@@ -8,7 +7,7 @@ response = {
 }
 ```
 
-#400
+##400
 ```
 response = {
   message: "Error. Check Errors For More Info",
@@ -16,7 +15,7 @@ response = {
 }
 ```
 
-#404
+##404
 ```
 response = {
   message: "No Job With ID #{params[:id]}",

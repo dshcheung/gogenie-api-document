@@ -3,7 +3,7 @@
 ```
 response = {
   message: "Job Application Updated",
-  job: {data}
+  job_application: {data}
 }
 ```
 
@@ -18,8 +18,8 @@ response = {
 ##404
 ```
 response = {
-  message: "No job application with id #{params[:id]}",
-  job: nil
+  message: "No Job Application With ID #{params[:id]}",
+  job_application: nil
 }
 ```
 

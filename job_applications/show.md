@@ -2,7 +2,7 @@
 ##200
 ```
 response = {
-  message: "Job Application Details Of ##{@job_application.id}",
+  message: "Job Application Details Of ID #{@job_application.id}",
   job_application: {data},
   job: {data},
   master: {data}

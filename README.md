@@ -18,20 +18,20 @@
 
 [put "/job_applications/:id"  Update individual application](https://github.com/dshcheung/gogenie-api-document/blob/master/job_applications/update.md)
 
-## Review Masters (for genie to use) (same structure as review user)
-[get "/review_masters"        Get all reviews by genie](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/index.md)
+## Review Masters (for genie to use)
+[get "/review_masters"        Get all review masters by users](https://github.com/dshcheung/gogenie-api-document/blob/master/review_masters/index.md)
 
-[post "/review_masters"       Post a new review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/create.md)
+[post "/review_masters"       Post a new review master](https://github.com/dshcheung/gogenie-api-document/blob/master/review_masters/create.md)
 
-[get "/review_masters/:id"    Get individual review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/show.md)
+[get "/review_masters/:id"    Get individual review master](https://github.com/dshcheung/gogenie-api-document/blob/master/review_masters/show.md)
 
-[put "/review_masters/:id"    Update individual review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/update.md)
+[put "/review_masters/:id"    Update individual review master](https://github.com/dshcheung/gogenie-api-document/blob/master/review_masters/update.md)
 
-## Review Users (for master to use) (same structure as review master)
-[get "/review_users"          Get all reviews by master](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/index.md)
+## Review Users (for master to use)
+[get "/review_users"          Get all review users by masters](https://github.com/dshcheung/gogenie-api-document/blob/master/review_users/index.md)
 
-[post "/review_users"         Post a new review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/create.md)
+[post "/review_users"         Post a new review user](https://github.com/dshcheung/gogenie-api-document/blob/master/review_users/create.md)
 
-[get "/review_users/:id"      Get individual review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/show.md)
+[get "/review_users/:id"      Get individual review user](https://github.com/dshcheung/gogenie-api-document/blob/master/review_users/show.md)
 
-[put "/review_users/:id"      Update individual review](https://github.com/dshcheung/gogenie-api-document/blob/master/reviews/update.md)
+[put "/review_users/:id"      Update individual review user](https://github.com/dshcheung/gogenie-api-document/blob/master/review_users/update.md)
